@@ -1,22 +1,22 @@
 """
 Program - 4
-Write a program which is having a class InventoryManagement.
-System should manage the quantity of purchase and sales processes.
-Users should be able to purchase the product with different prices in the same object of Inventory Management
+● Write a program which is having a class InventoryManagement.
+● System should manage the quantity of purchase and sales processes.
+● Users should be able to purchase the product with different prices in the same object of Inventory Management
 - Use a dictionary, maintain a numerical index and store product price and product quantity against it.
-Whenever the product is sold, it will start deducting the product qty whichever entry is done first in the dictionary,
+● Whenever the product is sold, it will start deducting the product qty whichever entry is done first in the dictionary,
 so qty will be deducted as FIFO (First In First Out).
-Once the qty from each purchase is used make sure, it is not used again, so update the dictionary accordingly.
-Program should be able to handle the valuation.
-Formula for valuation - sum of price * qty / sum of total qty.
-Write appropriate constructor, methods to manage the sales and purchase processes.
-There should be a provision to view the available quantities.
-This should be a menu driven program, which allows to
+● Once the qty from each purchase is used make sure, it is not used again, so update the dictionary accordingly.
+● Program should be able to handle the valuation.
+● Formula for valuation - sum of price * qty / sum of total qty.
+● Write appropriate constructor, methods to manage the sales and purchase processes.
+● There should be a provision to view the available quantities.
+● This should be a menu driven program, which allows to
     *Purchase Product
     *Sale Product
     *View Available Product Quantities
     *Exit
-Whenever sales take place, the system should process the quantities and then should show the available quantities.
+● Whenever sales take place, the system should process the quantities and then should show the available quantities.
 """
 class InventoryManagement:
     def __init__(self):
